@@ -3,7 +3,7 @@ function Contents() {
     return (
         <div>
           {/* Content */}
-            <div className="bg-white dark:bg-black overflow-hidden relative lg:flex lg:items-center">
+            <div className="bg-white dark:bg-[#277BC0] overflow-hidden relative lg:flex lg:items-center">
                 <div className="w-full py-12 px-4 sm:px-6 lg:py-10 lg:px-8 z-20">
                     <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
                         <span className="block">
@@ -13,7 +13,7 @@ function Contents() {
                             It&#x27;s Weather today or tomorrow.
                         </span>
                     </h2>
-                    <p className="text-xl mt-4 text-gray-400">
+                    <p className="text-xl mt-4 text-[#FFF4CF]">
                         Your daily dose of weather updates.
                     </p>
                     <div className="lg:mt-0 lg:flex-shrink-0">

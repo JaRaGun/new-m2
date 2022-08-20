@@ -18,7 +18,7 @@
   }
   
   .App-header {
-    background-color: #282c34;
+    background-color: #FFB200;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -42,16 +42,16 @@
   }
   
   .Title {
-    color: #39ff14 ;
+    color: #89CFFD ;
   }
   
   .button {
-    background-color: #39ff14;
-    color: black;
+    background-color: #FF7F3F;
+    color: #FFF4CF;
   }
   
   .button:hover {
-    background-color: green;
+    background-color: #FFCB42;
     transition: 0.7s;
   }
   

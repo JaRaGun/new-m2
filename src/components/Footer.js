@@ -2,11 +2,12 @@ function Footers() {
   return (
     <div>
         {/* Footer */}
-        <footer className="p-4 sm:p-6 dark:bg-black sticky top-[100vh]">
+        <footer className="p-4 sm:p-6 dark:bg-[#277BC0] sticky top-[100vh]">
             <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
-                        <img src="/logo.png" className="mr-3 h-32" alt="HexClan" />
+                        <img src="/SkyCastLogo.png" className="h-32" alt="" />
                         <span className="Title self-center text-2xl font-semibold whitespace-nowrap ml-4 dark:text-white">HexClan</span>
+                        
                 <div className="mb-6 md:mb-0">
                     <p className="self-center text-sm font-semibold whitespace-nowrap dark:text-white">Address: </p>
                     <p className="self-center text-sm font-semibold whitespace-nowrap dark:text-white">Contact Number: </p>
@@ -15,16 +16,16 @@ function Footers() {
                 </div> 
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 className="Title mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                        <ul className="text-gray-600 dark:text-gray-400">
+                        <h2 className="Title mb-6 text-sm font-semibold text-[#FFF4CF] uppercase dark:text-white">Resources</h2>
+                        <ul className="text-[#FFF4CF]">
                             <li>
                                 <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 className="Title mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                        <ul className="text-gray-600 dark:text-gray-400">
+                        <h2 className="Title mb-6 text-sm font-semibold text-[#FFF4CF] uppercase dark:text-white">Follow us</h2>
+                        <ul className="text-[#FFF4CF] dark:text-[#FFF4CF]">
                             <li className="mb-4">
                                 <a href="" className="hover:underline ">Github</a>
                             </li>
@@ -34,8 +35,8 @@ function Footers() {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="Title mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Developers</h2>
-                        <ul className="text-gray-600 dark:text-gray-400">
+                        <h2 className="Title mb-6 text-sm font-semibold text-[#FFF4CF] uppercase dark:text-white">Developers</h2>
+                        <ul className="text-[#FFF4CF] dark:text-[#FFF4CF]">
                             <li className="mb-4">
                                 Jan Rafael Guno
                             </li>
@@ -54,7 +55,7 @@ function Footers() {
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="sm:flex sm:items-center sm:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 HexClan™. All Rights Reserved.
+                <span className="text-sm sm:text-center text-[#FFF4CF]">© 2022 HexClan™. All Rights Reserved.
                 </span>
                 <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                     <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
