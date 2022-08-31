@@ -26,7 +26,7 @@ function Contents() {
                         </div>
                     </div>
                 </div>
-                <img src="/weather.gif" className="h-full max-w-1/2 lg:block right-0 top-0" />
+                <img src="/weather.gif" className="h-full max-w-1/2 lg:block right-0 top-0" alt='weather'/>
             </div>
  
             {/*Cards*/}

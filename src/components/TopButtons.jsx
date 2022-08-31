@@ -29,10 +29,14 @@ const TopButtons = ({setQuery}) => {
     <div className='flex justify-around items-center my-6'>
         <Link to="/"> <button className="text-white"><FaHome/></button> </Link>
         { city.map((city) => (
-            <button key={city.id} className='text-lg text-white font-medium' onClick={()=> setQuery({q: city.title})}>{city.title}</button>
+            <button key={city.id} className='text-lg text-white font-medium hidden w-full md:block md:w-auto' onClick={()=> setQuery({q: city.title})}>{city.title}</button>
         ))}
     </div>
   )
 }
+
+
+
+
 
 export default TopButtons
