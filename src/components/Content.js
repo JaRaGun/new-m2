@@ -3,7 +3,7 @@ function Contents() {
     return (
         <div>
           {/* Content */}
-            <div className="bg-white dark:bg-[#277BC0] overflow-hidden relative lg:flex lg:items-center">
+            <div className="bg-[#277BC0] overflow-hidden relative lg:flex lg:items-center">
                 <div className="w-full py-12 px-4 sm:px-6 lg:py-10 lg:px-8 z-20">
                     <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
                         <span className="block">
